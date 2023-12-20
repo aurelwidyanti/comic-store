@@ -1,0 +1,272 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+body {
+background: #cabbbb;
+margin:0;
+font-family: 'Humnst777 Blk BT';
+}
+
+header{
+text-align: center;
+padding-top: 20px;
+background: #cabbbb;
+}
+h1 {
+font-size: xx-large;
+color: #43081c;
+font-family: 'Cooper Black';
+}
+    
+.nav {
+overflow: hidden;
+list-style: none;
+float:left;
+padding:0;
+width: 1000px;
+margin:0 0 0;
+background: #43081c;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-ms-border-radius: 10px;
+-o-border-radius: 10px;
+}
+
+.nav a {
+margin:0;
+float:left;
+padding:25px;
+display:block;
+font-weight:600;
+font-size: 17px;
+color: #cabbbb;
+font-family: 'Humnst777 BT';
+text-decoration: none;
+background: #43081c;
+}
+
+.nav a:hover {
+background-color: #cabbbb;
+color: rgb(0, 0, 0);
+}
+
+.wrap {
+width: 1000px;
+margin: 25px auto;
+}
+nav.menu ul {
+overflow: hidden;
+list-style: none;
+float:left;
+padding:0;
+width: 1000px;
+margin:0 0 0;
+background: #43081c;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-ms-border-radius: 10px;
+-o-border-radius: 10px;
+}
+nav.menu ul li {
+margin:0;
+float:left;
+}
+nav.menu ul a {
+padding:25px;
+display:block;
+font-weight:600;
+font-size: 17px;
+color:#ffffff;
+}
+nav.menu ul a:hover {
+background:#00000050;
+}
+
+form {
+    display: grid;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin: 2rem auto 0 auto;
+    max-width: 1000px;
+    padding: 1em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  form input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+  }
+  form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+  }
+  form button:hover {
+    background: #9c9c9c;
+  }
+  
+  label {
+    padding: 0.5em 0.5em 0.5em 0;
+  }
+  
+  input {
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: 3px solid #9c9c9c;
+  }
+  
+  @media (min-width: 400px) {
+    form {
+      grid-template-columns: 150px 1fr;
+      grid-gap: 2px;
+    }
+  
+    label {
+      text-align: center;
+      grid-column: 1 / 2;
+    }
+  }
+
+.widget {
+float:left;
+width: 1000px;
+padding:125px;
+text-align: center;
+margin:25px 0 25px;
+background:#ffffff;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-ms-border-radius: 10px;
+-o-border-radius: 10px;
+}
+..widget h1 {
+padding:0;
+margin:0 0 15px;
+font-family: 'Cooper Black';
+color:#43081c;
+font-size: larger;
+font-weight:800;
+}
+.widget p {
+font-size: 14px;
+}
+.widget p:last-child {
+margin:0;
+}
+
+@media screen and (max-width: 460px) {
+
+nav.menu ul a {
+padding:15px;
+font-size: 14px;
+}
+
+.sidebar {
+display:none
+}
+.post-info {
+display:none;
+}
+
+.conteudo {
+margin:25px auto;
+}
+
+.conteudo img {
+margin:-5% 0 25px -5%;
+}
+}
+
+.contact-person {
+width: 150px;
+margin: 5px 10px;
+}
+
+button {
+display: block;
+margin: auto;
+width: 320px;
+padding: 5px;
+border: none;
+border-radius: 5px;
+background-color: white;
+font-family: 'Humnst777 Blk BT';
+color: black;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.image {
+width: 320px;
+display: block;
+margin: 5px auto;
+border-radius: 5px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.product-wrapper {
+width: 300px;
+background-color: white;
+margin: 18px auto;
+padding: 10px;
+border-radius: 20px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.product {
+padding: 5px 20px;
+margin: 0;
+font-size: 18px;
+font-weight: bold;
+font-family: arial;
+}
+
+.category {
+margin: 0;
+padding: 5px 20px;
+font-weight: bold;
+}
+
+.price {
+margin: 0;
+padding: 5px 20px;
+}
+
+.profile-wrapper {
+width: 300px;
+background-color: white;
+margin: 20px auto;
+padding: 10px;
+border-radius: 15px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+width:600px;
+padding:25px;
+margin:25px;
+}
+
+footer{
+    text-align: center;
+}
+@media (max-width: 100px) {
+.content, .sidebar,.footer{   
+width: 100%;
+padding: 0;
+}     
+}
+
+@media (max-width: 400px) {
+.nav a {
+float: none;
+width:100%;
+}
+}

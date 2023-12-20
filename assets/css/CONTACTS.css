@@ -1,0 +1,138 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background: #cabbbb;
+    margin:0;
+    font-family: 'Humnst777 Blk BT';
+    }
+    
+    header{
+    text-align: center;
+    padding-top: 20px;
+    background: #cabbbb;
+    }
+    h1 {
+    font-size: xx-large;
+    color: #43081c;
+    font-family: 'Cooper Black';
+    }
+        
+    .nav {
+    overflow: hidden;
+    list-style: none;
+    float:left;
+    padding:0;
+    width: 1000px;
+    margin:0 0 0;
+    background: #43081c;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    }
+    
+    .nav a {
+    margin:0;
+    float:left;
+    padding:25px;
+    display:block;
+    font-weight:600;
+    font-size: 17px;
+    color: #cabbbb;
+    font-family: 'Humnst777 BT';
+    text-decoration: none;
+    background: #43081c;
+    }
+    
+    .nav a:hover {
+    background-color: #cabbbb;
+    color: rgb(0, 0, 0);
+    }
+    
+    .wrap {
+    width: 1000px;
+    margin: 25px auto;
+    }
+    nav.menu ul {
+    overflow: hidden;
+    list-style: none;
+    float:left;
+    padding:0;
+    width: 1000px;
+    margin:0 0 0;
+    background: #43081c;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    }
+    nav.menu ul li {
+    margin:0;
+    float:left;
+    }
+    nav.menu ul a {
+    padding:25px;
+    display:block;
+    font-weight:600;
+    font-size: 17px;
+    color:#ffffff;
+    }
+    nav.menu ul a:hover {
+    background:#00000050;
+    }
+  
+  form {
+    display: grid;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin: 2rem auto 0 auto;
+    max-width: 1000px;
+    padding: 1em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  form input {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+  }
+  form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+  }
+  form button:hover {
+    background: #9c9c9c;
+  }
+  
+  label {
+    padding: 0.5em 0.5em 0.5em 0;
+  }
+  
+  input {
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: 3px solid #9c9c9c;
+  }
+  
+  @media (min-width: 400px) {
+    form {
+      grid-template-columns: 200px 1fr;
+      grid-gap: 16px;
+    }
+  
+    label {
+      text-align: center;
+      grid-column: 1 / 2;
+    }
+  }
